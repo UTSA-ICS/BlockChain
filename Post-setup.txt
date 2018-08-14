@@ -5,6 +5,8 @@ screen
 cd ~/fabric-dev-servers
 export FABRIC_VERSION=hlfv12
 ./startFabric.sh
+composer-playground
+http://<<YOUR IP>>:8080/login
 
 ctrl+a then press:  d  to detach.
 # To re-attach, type: screen -r
